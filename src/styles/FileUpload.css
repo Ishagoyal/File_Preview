@@ -1,0 +1,79 @@
+.FileUpload {
+  text-align: center;
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  width: 480px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+#drop-area.highlight {
+  border-color: purple;
+}
+
+.Preview{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  flex-wrap: nowrap;
+  margin:auto;
+  list-style-type: none;
+  align-items: center; 
+}
+
+li{
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+}
+
+.removeItem{
+  display: none;
+  font-size: 20px;
+}
+li:hover > .removeItem{
+  display: block;
+  color:black;
+}
+
+.image{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.dropText{
+  margin:30px; 
+}
+
+li:hover > .image{
+  filter: blur(2px);
+}
+
+.fileInput{
+  border-bottom: 4px solid lightgray;
+  border-right: 4px solid lightgray;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.uploadButton{
+  padding: 12px;
+  margin-left: 10px;
+  background: white;
+  border: 4px solid lightgray;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 10pt;
+  cursor: pointer;
+}
+.uploadButton:hover{
+  background: #efefef;
+}  
+
+
+ 
+  
+  
