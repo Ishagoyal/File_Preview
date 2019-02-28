@@ -98,6 +98,7 @@ class FileUpload extends Component {
 		</ul>
 		)
 	}
+	
   render() {
     return (
 			<div 
